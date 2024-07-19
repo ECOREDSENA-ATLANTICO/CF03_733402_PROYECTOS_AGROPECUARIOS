@@ -6,16 +6,16 @@ export default {
       'El tercer paso en proyectos agropecuarios es la formulación del proyecto productivo, compuesto por estudios de mercado, técnico, administrativo, ambiental y financiero. Se define el producto, su presentación y mercado objetivo; se describen los procesos productivos y se selecciona el tipo de empresa y estrategia administrativa. Además, se identifican las normativas ambientales y se calculan costos e ingresos para determinar el punto de equilibrio, asegurando la viabilidad del proyecto.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    // imagenesDecorativasBanner: [
+    //   {
+    //     clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+    //   },
+    //   {
+    //     clases: ['banner-principal-decorativo-2'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+    //   },
+    // ],
   },
   menuPrincipal: {
     menu: [
@@ -33,28 +33,134 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estudio de mercado',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Identificación del bien o servicio',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Identificación de la demanda',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Identificación de la oferta',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Identificación del precio',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Estrategia de mercadeo agrícola',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estudio técnico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Localización',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tamaño',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Identificación y descripción del proceso',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Organización y cronograma',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estudio administrativo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Planeación estratégica',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Análisis DOFA',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Organigrama',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Aspecto legal',
+            hash: 't_3_4',
+            subMenu: [
+              {
+                numero: '3.4.1',
+                titulo: 'Normatividad agropecuaria',
+                hash: 't_3_4_1',
+              },
+              {
+                numero: '3.4.2',
+                titulo: 'Tipos de empresas en Colombia',
+                hash: 't_3_4_2',
+              },
+              {
+                numero: '3.4.3',
+                titulo: 'Contratación',
+                hash: 't_3_4_3',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Estudio ambiental',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Legislación ambiental',
+            hash: 't_4_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Estudio financiero',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Flujo de caja',
+            hash: 't_5_1',
+          },
+        ],
       },
     ],
     subMenu: [
