@@ -22,7 +22,7 @@
         .cajon.bg-05.p-4.ps-5.bg_18.mb-4.mb-lg-0
           .row
             .col-md-3
-              img.mt-1(src='@/assets/curso/images/tema2/img_2.svg'  alt='')
+              img.mt-1.w-auto.mx-auto(src='@/assets/curso/images/tema2/img_2.svg'  alt='')
             .col-md-9
               p.mb-0 En este aparte de la formulación de proyectos se debe realizar la descripción del proceso productivo, teniendo en cuenta que debe especificar materiales, insumos, semilla o pie de cría, fertilizantes, concentrado, cantidades, precios, etc. Además, debe indicar la cantidad y costos de la mano de obra, a continuación, vamos a describir brevemente los componentes del estudio técnico:
       .col-lg-5.mb-3(data-aos="fade-right")
@@ -35,7 +35,7 @@
     
     .row.align-items-center.justify-content-center.mb-5
       .col-md-1
-        img(src='@/assets/curso/images/tema2/img_4.svg'  alt='')
+        img.w-auto.mx-auto(src='@/assets/curso/images/tema2/img_4.svg'  alt='')
       .col-md-11
         p.mb-0 En el análisis del estudio técnico la localización hace referencia a la ubicación espacial de la explotación agrícola o pecuaria; para ello se debe tener en cuenta criterios estratégicos, institucionales, técnicos, sociales y dos aspectos como la macro localización aquí se encuentran los entornos nacional y regional (ubicación del mercado de consumo, las fuentes de materias primas y mano de obra disponible) el segundo aspecto es la micro localización entorno de la zona urbana o rural (cercanía con el mercado consumidor, infraestructura y servicios).
 
@@ -45,17 +45,17 @@
         .col-lg-12.mb-5.align-items-center.justify-content-center
           .tarjeta-avatar-b.mb-3
             .tarjeta-avatar-b__img
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_5.svg', alt='')
+              img.img-t.m-auto.mx-auto(src='@/assets/curso/images/tema2/img_5.svg', alt='')
             .tarjeta.bg-04.shadow-sm
-              .p-4
-                p Con el fin de establecer un método sencillo para cuantificar variables con las que se pueda determinar la ubicación de un proyecto, se pueden utilizar las siguientes:  
+              .p-3
+              p Con el fin de establecer un método sencillo para cuantificar variables con las que se pueda determinar la ubicación de un proyecto, se pueden utilizar las siguientes:  
       .col-lg-5.mb-3(data-aos="fade-right")
-        img.mt-3(src='@/assets/curso/images/tema2/img_6.png'  alt='')
+        img.mt-3.w-auto.mx-auto(src='@/assets/curso/images/tema2/img_6.png'  alt='')
       
     
     .row.align-items-center.justify-content-star.mb-1.ps-2.mb-3(data-aos="zoom-in-down")
       .col-md-4 
-        img(src='@/assets/curso/images/tema2/img_7.png'  alt='')
+        img.w-auto.mx-auto(src='@/assets/curso/images/tema2/img_7.png'  alt='')
       .col-md-8 
         .col-sm
           ul.lista-ul--cuadro.lista-ul
@@ -137,7 +137,7 @@
         .cajon.bg-05.p-4.ps-5.bg_18.mb-4.mb-lg-0
           .row
             .col-md-2
-              img.mt-1(src='@/assets/curso/images/tema2/img_11.svg'  alt='').m-auto
+              img.mt-1(src='@/assets/curso/images/tema2/img_11.svg'  alt='').w-auto.mx-auto
             .col-md-10
               p.mb-0 Un factor que puede ayudar en la definición del tamaño del proyecto es la relación del mercado con los costos unitarios, si el resultado es que posee los costos mínimos y además tiene la capacidad de satisfacer el crecimiento de la demanda ese será el tamaño adecuado para el proyecto agropecuario.
       .col-lg-5.mb-3(data-aos="fade-right")

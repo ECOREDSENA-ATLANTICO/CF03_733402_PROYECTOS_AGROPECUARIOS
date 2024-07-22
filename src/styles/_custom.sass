@@ -18,6 +18,9 @@
   100%
     transform: translateY(0px)
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/interno.png") !important
+  background-repeat: no-repeat 
     
 ///////// Card hover --------------------------------------
 
@@ -137,27 +140,55 @@
   width: 30% !important
   
 .ocultar
-  display: block;
+  display: block
   @media (max-width: 992px)
-    display: none;
+    display: none
   @media (max-width: 768px)
-    display: none;
+    display: none
   @media (max-width: 576px)
-    display: none;
+    display: none
   @media (max-width: 412px)
-    display: none;
+    display: none
   @media (max-width: 390px)
-    display: none;
+    display: none
 
 .mostrar
-  display: none;
+  display: none
   @media (max-width: 992px)
-    display: block;
+    display: block
   @media (max-width: 768px)
-    display: block;
+    display: block
   @media (max-width: 576px)
-    display: block;
+    display: block
   @media (max-width: 412px)
-    display: block;
+    display: block
   @media (max-width: 390px)
-    display: block;
+    display: block
+
+.lista-ol--cuadro__vineta
+  background-color: $color-primario !important
+
+.lista-ul--color li > i:first-of-type
+  color: $color-primario !important
+
+
+.th, .td 
+  border: 1px solid black
+  padding: 8px
+  text-align: center
+  background-color: #00796B
+  color: white
+
+.th_1
+  background-color: $color-primario !important
+  color: white
+
+.th_2
+  background-color: #99D3CC !important
+  color: #12263F
+  
+.barra-avance__boton--regresar
+  color: $white
+
+.text-primario 
+  color: $color-primario !important

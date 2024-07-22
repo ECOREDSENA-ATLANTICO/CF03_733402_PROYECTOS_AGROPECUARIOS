@@ -210,32 +210,251 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Guías de tipos societarios',
+      referencia: 'Cámara de Comercio de Medellín. 2021',
+      tipo: 'Guía',
+      link:
+        'https://www.camaramedellin.com.co/Portals/0/Documentos/2019/GuiaTipoSocietario__FormatoPDF_ago20.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Análisis FODA',
+      referencia: 'FAO. (2018)',
+      tipo: 'Diapositivas',
+      link: 'http://www.fao.org/3/CA1923ES/ca1923es.pdf',
+    },
+    {
+      tema: 'Buenas prácticas agrícolas y ganaderas',
+      referencia: 'Instituto Colombiano Agropecuario. (2021)',
+      tipo: 'Resolución',
+      link: 'https://www.ica.gov.co/areas/agricola-pecuaria/bpa-bpg.aspx',
+    },
+    {
+      tema: 'Normatividad',
+      referencia: 'Instituto Colombiano Agropecuario. (2021)',
+      tipo: 'Artículo',
+      link:
+        'https://www.ica.gov.co/normatividad/normas-nacionales/resoluciones',
+    },
+    {
+      tema: 'Formulación y evaluación de proyectos agropecuarios',
+      referencia: 'Puentes, M. G. 2011',
+      tipo: 'Libro',
+      link:
+        'https://www.ecoeediciones.com/libros/libros-de-ciencias-agrarias/formulacion-y-evaluacion-de-proyectos-agropecuarios-1ra-edicion/',
+    },
+    {
+      tema: 'Cartillas y guías',
+      referencia: 'Superintendencia de sociedades',
+      tipo: 'Cartillas y guías',
+      link:
+        'https://www.supersociedades.gov.co/delegatura_aec/informes_publicaciones/responsabilidad_social/Paginas/cartillas_guias.aspx',
+    },
+    {
+      tema: 'Tipos de contrato laborales',
+      referencia: 'Ministerio del Trabajo',
+      tipo: 'Otro',
+      link:
+        'https://www.mintrabajo.gov.co/web/empleosinfronteras/conoce-los-tipos-de-contrato-de-trabajo',
+    },
+    {
+      tema:
+        'Información y orientación laboral para la población colombiana en situación de retorno',
+      referencia: 'Ministerio del Trabajo',
+      tipo: 'Cartilla',
+      link:
+        'https://repositoryoim.org/bitstream/handle/20.500.11788/1997/CARTILLA%20DE%20INFORMACION%20Y%20ORIENTACION%20LABORAL_WEB.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      tema: 'Decreto 2616 del 20 de noviembre de 2013',
+      referencia: 'Presidencia de la República',
+      tipo: 'Resolución',
+      link:
+        'http://wsp.presidencia.gov.co/Normativa/Decretos/2013/Documents/NOVIEMBRE/20/DECRETO%202616%20DEL%2020%20DE%20NOVIEMBRE%20DE%202013.pdf',
+    },
+    {
+      tema: 'Abecé de la contratación por semanas',
+      referencia: 'Ministerio del Trabajo',
+      tipo: 'Cartilla',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/241327/abece_cotizacion_por_semanas.pdf',
+    },
+    {
+      tema: 'Normatividad ambiental y sanitaria',
+      referencia: 'Unidad de Planeación Minero Energética (UPME)',
+      tipo: 'Normatividad',
+      link:
+        'http://www.upme.gov.co/guia_ambiental/carbon/gestion/politica/normativ/normativ.htm#BM2_1_Normas_y_principios_ambientales_co',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Actividades',
+      significado:
+        'Corresponde al conjunto de acciones que comprometen recursos y tiempo, que es preciso realizar para alcanzar los objetivos propuestos en un proyecto. (Miranda, 2005).',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Activo',
+      significado:
+        'Representa los bienes y derechos que posee una empresa, tales como dinero, edificios, maquinaria, cuentas por cobrar, inversiones en papeles de mercado, valorizaciones, inventarios, etc. (Miranda, 2005).',
+    },
+    {
+      termino: 'Administración Estratégica',
+      significado:
+        "En resumen la 'planeación estratégica' consiste en organizar de una manera disciplinada y sistemática, las tareas que la administración debe ejecutar para conducir a la organización hacia un futuro estable. Queda claro entonces que el fin de la planeación estratégica, es definir los objetivos a largo plazo de la empresa y diseñar los mecanismos para lograrlos; por lo tanto podemos afirmar que la planeación estratégica no pretende predecir el futuro, sino adoptar decisiones con impacto de futuro; tampoco trata de eliminar los riesgos, su finalidad es asegurar que se tomen los riesgos correctos en el momento oportuno. (Miranda, 2005).",
+    },
+    {
+      termino: 'Alternativas',
+      significado:
+        'Posibilidad de elegir entre opciones o soluciones diferentes. (Nuño, 2012).',
+    },
+    {
+      termino: 'Análisis Financiero',
+      significado:
+        'Es la presentación en forma procesada de la información de los estados financieros de una empresa y que sirve para la toma de decisiones económicas, tales como nuevas inversiones, fusiones, concesión de crédito, etc. (Miranda, 2005).',
+    },
+    {
+      termino: 'Área de Influencia',
+      significado:
+        'Son aquellos territorios (nacional, regional, departamental, local, zonal) que serán afectados directa o indirectamente por el proyecto. (Miranda, 2005).',
+    },
+    {
+      termino: 'Balance',
+      significado:
+        'Demostrativo contable de la situación económica y financiera de una empresa, en un momento determinado. (Miranda, 2005).',
+    },
+    {
+      termino: 'Beneficiario',
+      significado:
+        'Persona o grupo de personas que reciben los beneficios de un proyecto de inversión. Persona a la cual se transfiere un activo financiero o a favor de quien se emite un título o un contrato de seguro. (Miranda, 2005).',
+    },
+    {
+      termino: 'Capacidad Diseñada',
+      significado:
+        'Corresponde a la capacidad técnica máxima tolerable de producción o prestación de servicio, y puede eventualmente superar a la capacidad instalada, lo que significa que en situaciones de excepción se puede trabajar con sobrecarga. (Miranda, 2005).',
+    },
+    {
+      termino: 'Ciclo del Proyecto',
+      significado:
+        'Hace referencia a las etapas de preinversión (identificación, formulación y evaluación), negociación, ejecución, operación y la evaluación ex-post. (Miranda, 2005).',
+    },
+    {
+      termino: 'Debitar',
+      significado: 'Retirar fondos de una cuenta (Miranda, 2005).',
+    },
+    {
+      termino: 'Dinero',
+      significado:
+        'Instrumento de cambio representado en papel o moneda, que cumple cuatro funciones: medio de cambio; medida de valor; patrón de pago; unidad de cuenta. Su característica esencial es ser medio de pago generalmente aceptado a cambio de bienes y servicios y en la cancelación de deudas. (Miranda, 2005).',
+    },
+    {
+      termino: 'Sinergia',
+      significado:
+        'Acción combinada de dos o más agentes que resulta mayor que la suma de las acciones individuales. (Miranda, 2005).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Agrosana. (2015). Política de Calidad. Agrosana.',
+      link: 'http://www.agrosana.es/politica-de-calidad',
+    },
+    {
+      referencia: 'Agrosavia. (2021). Qué hacemos. Valores.',
+      link: 'https://www.agrosavia.co/qu%C3%A9-hacemos',
+    },
+    {
+      referencia:
+        'Cámara de Comercio de Medellín. (2021). Guías de tipos societarios.',
+      link:
+        'https://www.camaramedellin.com.co/Portals/0/Documentos/2019/GuiaTipoSocietario__FormatoPDF_ago20.pdf',
+    },
+    {
+      referencia:
+        'Decreto 2616 de 2013. (Ministerio de Trabajo y Protección Social).',
       link: '',
+    },
+    {
+      referencia:
+        'Enciclopedia Económica (2021). Mercadeo. Funciones del Mercado.',
+      link: 'https://enciclopediaeconomica.com/mercadeo/',
+    },
+    {
+      referencia: 'FAO. (2018). Análisis FODA.',
+      link: 'http://www.fao.org/3/CA1923ES/ca1923es.pdf',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2021). Buenas prácticas agrícolas y ganaderas. ICA.',
+      link: 'https://www.ica.gov.co/areas/agricola-pecuaria/bpa-bpg.aspx',
+    },
+    {
+      referencia:
+        'Jimenez, L.W. (2010). Contabilidad de Costos. FOCO Ediciones Bogotá',
+      link: '',
+    },
+    {
+      referencia:
+        'Martínez, A.J. (2017). El ciclo de vida del producto. Econosublime.',
+      link: 'http://www.econosublime.com/2020/01/ciclo-vida-producto.html',
+    },
+    {
+      referencia:
+        'Mendieta. 2005. Formulación y evaluación de proyectos de inversión agropecuaria. Universidad Agraria. Nicaragua.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo y Protección Social. (2014). Abecé de la cotización por semanas.',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/241327/abece_cotizacion_por_semanas.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo y Protección Social. (2021). Conoce los tipos de contrato de trabajo.',
+      link:
+        'https://www.mintrabajo.gov.co/web/empleosinfronteras/conoce-los-tipos-de-contrato-de-trabajo',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo y Protección Social. (2017). Información y Orientación laboral para la población colombiana en situación de retorno.',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/59036289/CARTILLA+EMPLEO+RETORNO+op+3+completo+baja+11-10-2017.pdf',
+    },
+    {
+      referencia:
+        'Miranda, M.J. (1999). Gestión de proyectos. Cuarta Edición. MM Editores.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nuño , L.P. (2012). Administración de Pequeñas Empresas. Red Tercer Milenio.',
+      link: '',
+    },
+    {
+      referencia:
+        'Puentes, M.G. 2011. Formulación y evaluación de proyectos agropecuarios. Ecoe.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje. (2014). El Contrato de Trabajo. SENA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Autónoma de México. Estudio Técnico. Facultad de Economía. (pp. 53-93)',
+      link: 'http://www.economia.unam.mx/secss/docs/tesisfe/GomezAM/cap2a.pdf',
+    },
+    {
+      referencia:
+        'Unidad de Planeación Minero Energética UPME. (2021). Normatividad Ambiental y Sanitaria.',
+      link:
+        'http://www.upme.gov.co/guia_ambiental/carbon/gestion/politica/normativ/normativ.htm#BM2_1_Normas_y_principios_ambientales_co',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo y Protección Social. (2017). Información y Orientación laboral para la población colombiana en situación de retorno.',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/59036289/CARTILLA+EMPLEO+RETORNO+op+3+completo+baja+11-10-2017.pdf',
     },
   ],
   creditos: [
@@ -243,14 +462,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Tatiana Villamil',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -258,9 +478,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Diana Julieth Núñez Ortegón',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Comercio y Servicio - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
     },
@@ -268,24 +510,45 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Nelson vera',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Alexander Acosta',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+        },
+        {
+          nombre: 'Liborio de Jesús Castañeda Valencia',
+          cargo: 'Desarrollo Fullstack Junior',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+        },
+        {
+          nombre: 'Carmen Martínez',
+          cargo: 'Diseño de contenidos digitales',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+        },
+        {
+          nombre: 'Carmen Martínez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -293,24 +556,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Fabian Cuartas',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Gilberto Herrera',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },

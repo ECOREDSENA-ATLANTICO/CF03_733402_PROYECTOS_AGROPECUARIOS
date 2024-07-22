@@ -157,10 +157,10 @@
       .col-lg-7.mb-3(data-aos="fade-left") 
         p.mb-3 En el estudio de mercado del sector agropecuario (primario), se debe tener en cuenta que los productos o bienes que son objeto de comercialización son organismos vivos, por lo tanto, para la identificación del producto se debe tener en cuenta características que le otorgan valor en el mercado como: el grado de madurez, la firmeza, color, presentación, peso o si es un producto transformado que necesita condiciones de conservación específicas; en este componente se debe identificar los parámetros que generan valor en el producto y o van a diferenciar del producto de la competencia.
         
-        .cajon.bg-04.p-3.ps-5.bg_18.mb-4.mb-lg-0
+        .cajon.bg-04.p-3.bg_18.mb-4.mb-lg-0
           .row
             .col-md-2
-              img.mt-1(src='@/assets/curso/images/tema1/img_14.svg'  alt='')
+              img.mt-1.m-auto.mx-auto.w-auto(src='@/assets/curso/images/tema1/img_14.svg'  alt='')
             .col-md-10.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               p.mb-0 <b> Una posible caracterización para los productos agrícolas y pecuarios es el que se propone a continuación:</b>
       
@@ -174,13 +174,13 @@
       p.mb-3 Aquí se debe identificar el sector productivo al que pertenece el producto o servicio; si pertenece al primario agropecuario se puede clasificar de la siguiente forma:
 
     .row.align-items-center.justify-content-star.mb-1.ps-2.mb-3(data-aos="zoom-in-down")
-      .col-md-4 
-        img(src='@/assets/curso/images/tema1/img_16.png'  alt='')
+      .col-md-4.mb-4 
+        img.w-auto(src='@/assets/curso/images/tema1/img_16.png'  alt='')
       .col-md-8 
         .col-sm
           .row.div.bg-c1.mb-4 
-            .col-sm.justify-content-left
-              img(src='@/assets/curso/images/tema1/img_15.png'  alt='').h-45
+            .col-sm.justify-content-left.w-auto
+              img(src='@/assets/curso/images/tema1/img_15.png'  alt='').h-45.w-auto
 
             .col-auto.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
               h4.text-white.mb-0 Agrícola
@@ -205,11 +205,11 @@
     .row.align-items-center.justify-content-center.mb-4.ps-2(data-aos="zoom-in-down")
       .col-lg-10
         .row
-          .col-md-7 
+          .col-md-7.mb-3 
             .col-sm
               .row.div.bg-c1.mb-4 
-                .col-sm.justify-content-left
-                  img(src='@/assets/curso/images/tema1/img_17.png'  alt='').h-45
+                .col-sm.justify-content-left.w-auto
+                  img(src='@/assets/curso/images/tema1/img_17.png'  alt='').h-45.w-auto
 
                 .col-auto.mb-4.mb-md-0.justify-content-center.flex-column.d-flex
                   h4.text-white.mb-0 Pecuario
@@ -230,7 +230,7 @@
                   i.fas.fa-angle-right
                   | <b> Ganado para carne. </b> (Puentes, 2011, p.46). Adaptación realizada por el autor, 2021.
           
-          .col-md-5 
+          .col-md-5.mb-3 
             img(src='@/assets/curso/images/tema1/img_18.png'  alt='')
           
 
@@ -338,7 +338,7 @@
         .cajon.bg-04.p-4.ps-5.bg_18.mb-4.mb-lg-0
           .row
             .col-md-3
-              img.mt-1(src='@/assets/curso/images/tema1/img_30.svg'  alt='')
+              img.mt-1.w-auto.mx-auto(src='@/assets/curso/images/tema1/img_30.svg'  alt='')
             .col-md-9
               p.mb-0 La información recolectada y analizada al finalizar la identificación de la demanda aporta elementos básicos para el estudio técnico, esto se traduce en el tamaño o la capacidad de producción, esta información describe la disponibilidad de insumos lo que debe concordar con otros elementos como la capacidad financiera, técnica y administrativa.
     
@@ -582,13 +582,13 @@
     #t_1_5.titulo-segundo
       .h2(data-aos="fade-right") 1.5 Estrategia de mercadeo agrícola
       
-    p.mb-2 La parte final del estudio de mercado se debe establecer una estrategia del producto seleccionado, por lo que establecer una estrategia de mercadeo, esta debe presentar una combinación de elementos comerciales conocida como las cuatro P:
+    p.mb-4 La parte final del estudio de mercado se debe establecer una estrategia del producto seleccionado, por lo que establecer una estrategia de mercadeo, esta debe presentar una combinación de elementos comerciales conocida como las cuatro P:
     
     .row.align-items-center.justify-content-center.mb-5
       .col-md-8
         figure
           img(src='@/assets/curso/images/tema1/img_53.png', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen 
+          //- figcaption Leyenda de la imagen 
     
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8

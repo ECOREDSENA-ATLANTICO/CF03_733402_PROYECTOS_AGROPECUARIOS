@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Estudio Ambiental
+      h1 Estudio ambiental
       
     .row.align-items-center.justify-content-center.mb-2
       .col-lg-5.mb-3(data-aos="fade-right")

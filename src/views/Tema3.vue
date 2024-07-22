@@ -16,7 +16,7 @@
         .cajon.bg-05.p-4.ps-5.bg_18.mb-4.mb-lg-0
           .row
             .col-md-3
-              img(src='@/assets/curso/images/tema3/img_2.svg'  alt='')
+              img.w-auto.mx-auto(src='@/assets/curso/images/tema3/img_2.svg'  alt='')
             .col-md-9
               p.mb-0 En la implementación del aspecto administrativo para el proyecto agropecuario es importante iniciar con un elemento administrativo que es la planeación estratégica, encargada de definir el rumbo y las acciones a realizar para alcanzar los objetivos que se plantean en el proyecto agropecuario.
     
@@ -145,7 +145,7 @@
         .cajon.bg-05.p-4.ps-5.bg_18.mb-5.mb-lg-0
           .row
             .col-md-2
-              img(src='@/assets/curso/images/tema3/img_14.svg'  alt='')
+              img.w-auto.mx-auto(src='@/assets/curso/images/tema3/img_14.svg'  alt='')
             .col-md-10
               p.mb-0 Es así como esta entidad realiza asesoría y acompañamiento a los productores agropecuarios del país para la obtención de certificados tales como se relacionan en la siguiente tabla: 
 
@@ -249,7 +249,7 @@
         .cajon.bg-05.p-4.ps-5.bg_18.mb-4.mb-lg-0
           .row
             .col-md-2
-              img(src='@/assets/curso/images/tema3/img_18.svg'  alt='')
+              img.w-auto.mx-auto(src='@/assets/curso/images/tema3/img_18.svg'  alt='')
             .col-md-10
               p.mb-0 Cuando se registra como persona jurídica es importante conocer las características de cada una de ellas, según la cámara de comercio de Medellín, existen los siguientes tipos de sociedades:
       
