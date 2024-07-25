@@ -6,16 +6,20 @@ export default {
       'El tercer paso en proyectos agropecuarios es la formulación del proyecto productivo, compuesto por estudios de mercado, técnico, administrativo, ambiental y financiero. Se define el producto, su presentación y mercado objetivo; se describen los procesos productivos y se selecciona el tipo de empresa y estrategia administrativa. Además, se identifican las normativas ambientales y se calculan costos e ingresos para determinar el punto de equilibrio, asegurando la viabilidad del proyecto.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    // imagenesDecorativasBanner: [
-    //   {
-    //     clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-    //   },
-    //   {
-    //     clases: ['banner-principal-decorativo-2'],
-    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-    //   },
-    // ],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
