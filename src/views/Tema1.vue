@@ -236,7 +236,7 @@
 
     .row.align-items-center.justify-content-center.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema1/img_19.svg").img65
@@ -454,7 +454,7 @@
     
     .row.align-items-center.justify-content-center.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema1/img_42.svg").img65

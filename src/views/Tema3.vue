@@ -91,7 +91,7 @@
           p.mb-0 Es una herramienta o técnica de diagnóstico en procesos de producción y proyectos productivos en la que se identifican las debilidades (D) oportunidades (O) fortalezas (F) y amenazas (A); al finalizar el desarrollo de la herramienta podemos realizar un análisis sobre las fortalezas y debilidades que se identifican dentro del proyecto productivo y también se puede realizar un análisis externo del proyecto oportunidades y amenazas que afectan positiva y negativamente el desarrollo de las actividades del proyecto.
     
       .col-lg-10.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta  
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_10.svg").img65
@@ -204,7 +204,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-6.mb-5
-        .tarjeta.color-primario.p-2
+        .tarjeta.color-primario.p-2.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_16.svg").img65
@@ -219,7 +219,7 @@
                     i.fas.fa-file-pdf
 
       .col-lg-6.mb-5
-        .tarjeta.color-primario.p-4
+        .tarjeta.color-primario.p-4.banner_tarjeta
           .row.justify-content-around.align-items-center.p-4
             .col-auto
               img(src="@/assets/curso/images/tema3/img_16.svg").img65
@@ -258,7 +258,7 @@
         img.mb-5.mt-auto.mostrar(src="@/assets/curso/images/tema3/img_20.png")
 
       .col-lg-6.mb-5(data-aos="fade-left") 
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_16.svg").img65
@@ -273,7 +273,7 @@
                     i.fas.fa-file-pdf
 
       .col-lg-6.mb-5(data-aos="fade-right") 
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-2
             .col-auto
               img(src="@/assets/curso/images/tema3/img_10.svg").img65
@@ -302,7 +302,7 @@
             p.mb-0 Después de haber conocido los tipos de sociedades que existen en Colombia, es momento de conocer los tipos de contrato que existen junto con sus características, es por esto por lo que en la página del ministerio de trabajo se encuentra esta información para su conocimiento y manejo.
 
       .col-lg-8.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_16.svg").img65
@@ -321,7 +321,7 @@
           p.mb-0 También para conocer a detalle la definición de contrato, tipos de contrato, periodo de prueba, salario y demás características que todo emprendedor debe conocer para conformar una empresa que cumpla con los estándares legales y que aporte al desarrollo social, productivo generando procesos de responsabilidad social empresarial.
 
       .col-lg-6.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_10.svg").img65
@@ -336,7 +336,7 @@
                     i.fas.fa-file-pdf
 
       .col-lg-6.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_10.svg").img65
@@ -358,7 +358,7 @@
         p.mb-3 El sector agropecuario en Colombia está enmarcado por la informalidad en la contratación de trabajadores del sector rural, para mejorar las condiciones laborales el gobierno nacional bajo la dirección del ministerio de trabajo y protección social expide el decreto 2616 de 2013 que establece la cotización seguridad social para trabajadores que laboren menos de un mes; este decreto ayuda a mejorar condiciones laborales en términos de aporte a pensión, salud y riesgos laborales de trabajadores de campo, además ayuda a la empresa a cumplir con compromisos de responsabilidad social o políticas orientadas a mejorar las condiciones de vida de los habitantes del área de influencia.
         
       .col-lg-6.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_10.svg").img65
@@ -373,7 +373,7 @@
                     i.fas.fa-file-pdf
 
       .col-lg-6.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema3/img_10.svg").img65

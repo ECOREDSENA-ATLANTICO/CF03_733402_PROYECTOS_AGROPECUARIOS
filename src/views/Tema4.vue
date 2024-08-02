@@ -131,7 +131,7 @@
                   p.mb-0 <b>Artículo 330. </b>Establece la administración autónoma de los territorios indígenas con ámbitos de aplicación en los usos del suelo y la preservación de los recursos naturales, entre otros. UPME, 2021.
 
       .col-lg-10.mb-5
-        .tarjeta.color-primario.p-3
+        .tarjeta.color-primario.p-3.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
               img(src="@/assets/curso/images/tema4/img_4.svg").img65
